@@ -1,0 +1,197 @@
+<div class="preface">
+    <div class="preface-title">Note</div>
+    This blog presents an example through personal experience.
+    I hope you can introspect as necessary to apply the lessons
+    to your own life.
+</div>
+
+<p>
+    Swimming has dominated this era of my life as the preferred form
+    of exercise.  It's been a few years since I successfully swam
+    for the <b>first time</b> and there's been this recurring problem
+    that I only recently found a solution to and came to terms
+    accepting it as the solution.  Since the early days of swimming,
+    my stamina has improved quite a bit.  As such, I can do more laps
+    now.  The problem is simple.
+</p>
+
+<blockquote>
+    I simply kept losing count of how many laps I had completed.
+</blockquote>
+
+<p>One of the reasons I love swimming is because my mind has the
+    space and freedom to wander.  Compared to running, where I
+    definitely focus on my breath or zone out gazing around.  Or
+    compared to biking, where my vision blends reality together at
+    high speeds.  When I swim, there's no exciting scenery nor any
+    stretching of reality.  My mind mostly becomes fluid like the
+    water and swims freely through ideas.
+</p>
+
+<p>Due to this fact, needing to keep a rigid series of numbers in 
+    my head became more and more difficult as I acclimated to the
+    nature of swimming.  I wouldn't forget the count every lap.
+    Just often enough that somewhere in the middle of a workout I'd 
+    find myself wondering, <i>Was that 18? Or 19?</i>
+</p>
+
+<p>Ironically, the first solution I fantasized about was an
+    ultrasonic sensor (or similar) that detected by presence at
+    the edge of the pool and automatically counted each lap.  It
+    would show the count on this fancy display and it would be
+    super cool!
+</p>
+
+<p>But, as most inventions go, the reality/practicality of the
+    implementation was messier.  It needed waterproofing.  It needed
+    calibration.  It needed an energy source.  It would need
+    maintenance.  ... and, if you can tell from my mentality when
+    I go swimming, none of that aligns with the simplicity of
+    doing laps.
+</p>
+
+<blockquote>
+    The solution should match the activity.
+</blockquote>
+
+<p>It was only very recently that I had an extra small PVC-like
+    tube and saw the seams in the pavers around the pool and had
+    a tiny eureka moment.  I counted the number of seams. 28 on
+    each side.  Enough to do 50 laps (+6 extra).  So I tried it
+    out.  After each lap, I'd slide it over one tile.  Then one
+    more.  And one more.  Until I reached the end.
+</p>
+
+<p>
+Simple.
+</p>
+<p>
+It worked.
+</p>
+
+<p>The engineering ideas were genuinely exciting.  I still think
+    they would be fun projects.  But I never built them.  And I
+    don't need to.  As cool as they are, they overcomplicate
+    a simple problem.  Other than being a lazy developer (as all
+    developers are), there was a simple question that gave the
+    obvious answer:
+</p>
+
+<blockquote>
+    <strong>What problem am I trying to solve?</strong>
+</blockquote>
+
+<p>The original problem was that I couldn't reliably keep track
+    of my laps.  The little marker solved that in the least
+    invasive way possible.  So what was the Arduino solving?
+    What value was the sensor adding?  I wasn't so sure anymore.
+    That question has stayed with me because I think it's one we
+    don't ask often enough.
+</p>
+
+<p>When we talk about technology, we usually start with <i>what's
+    possible</i>.
+</p>
+<p>
+Could this be automated?
+</p>
+<p>
+Could I build an app for this?
+</p>
+<p>
+Could AI help?
+</p>
+
+<p>As an engineer (and designer), I love those questions.  But,
+    since the road trip, I've started wondering how to ask the
+    other question that belongs before them:
+</p>
+
+<blockquote>
+    <strong>What does this give me? What does it ask of me?</strong>
+</blockquote>
+
+<p>Sometimes the answer is obvious.</p>
+
+<p>A washing machine gives me hours of my time back.</p>
+
+<p>GPS lets me explore places I'd never confidently navigate on
+    my own.</p>
+
+<p>A calendar remembers things so I don't have to.</p>
+
+<p>In those cases, technology quietly fades into the background
+    and lets me focus on living.</p>
+
+<p>Other times, the answer isn't as clear.</p>
+
+<p>Sometimes the new technology saves a few seconds while asking
+    for batteries, updates, charging, troubleshooting, setup, or
+    just another thing to think about.</p>
+
+<p>Sometimes it solves a problem I don't really have anymore.</p>
+
+<p>And sometimes, if I'm honest with myself, I'm not trying to
+    solve a problem at all.</p>
+
+<p>I'm just fascinated by the idea.</p>
+
+<p>There's nothing wrong with that.</p>
+
+<p>Building things simply because they're interesting has taught me
+    an incredible amount throughout my life.  But I've realized
+    that's a different reason than building something because I
+    genuinely need it.</p>
+
+<p><b>The distinction matters.</b></p>
+
+<p>Lately, whenever I catch myself imagining a new gadget, a new
+    automation, or a clever piece of software, I've started pausing
+    for just a moment.</p>
+
+<p>Not to ask whether I <i>can</i> build it.</p>
+
+<p>To ask what role I want technology to play.</p>
+
+<p>Do I want it to replace something tedious?  To make room for
+    something more meaningful?  To help me do something I couldn't
+    do before?  Or am I simply enjoying the process of creating?
+</p>
+
+<p>None of those answers are wrong.  I just think they're worth
+    knowing.  Technology is one of the most powerful tools we've
+    ever created.</p>
+
+<p>The challenge isn't deciding whether to use it.</p>
+
+<p>The challenge is learning when it truly serves us.</p>
+
+
+
+<table>
+    <tr>
+        <th>Solution</th>
+        <th>Solves problem?</th>
+        <th>Complexity</th>
+    </tr>
+    <tr>
+        <td>Count in head</td>
+        <td>No</td>
+        <td>Low</td>
+    </tr>
+    <tr>
+        <td>Marker on pool edge</td>
+        <td>Yes</td>
+        <td>Very low</td>
+    </tr>
+    <tr>
+        <td>Arduino clicker</td>
+        <td>Yes</td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>Automatic sensor system</td>
+        <td>Yes</td>
+        <td>High</td>
+    </tr>
+</table>
