@@ -643,49 +643,54 @@ export default function SpiritualTech() {
             <TimelineContent>New Jersey | Edison</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 34 | June 02 - June 05</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 34 | Jun 02 - Jun 05</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Pennsylvania | Morrisville, King of Prussia</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 46 | June 05 - June 09</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 46 | Jun 05 - Jun 09</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Delaware | Newark, Smyrna, Rehoboth Beach</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 47 | June 09 - June 14</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 47 | Jun 09 - Jun 14</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Maryland | Baltimore, Scaggsville</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> US Capitol | June 14 - June 20</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> US Capitol | Jun 14 - Jun 20</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Washington, DC</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 32 | June 20 - June 24</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 32 | Jun 20 - Jun 24</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Virginia | Leesburg, Richmond</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 48 | June 24 - June 29</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 48 | Jun 24 - Jun 29</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>North Carolina | Oxford, Raleigh, Seagrove, Charlotte</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 49 | June 29 - July 02</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 49 | Jun 29 - Jul 02</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>South Carolina | Columbia, Yemassee</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 31 | July 02 - July 04</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 31 | Jul 02 - Jul 04</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Georgia | Savannah</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent color="text.secondary"> State 1 | July 04 - July 07</TimelineOppositeContent>
+            <TimelineOppositeContent color="text.secondary"> State 1 | Jul 04 - Jul 07</TimelineOppositeContent>
             <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
             <TimelineContent>Florida | Jacksonville, Home</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent color="text.secondary"> State 50 | 2026 Aug 13 - Aug 26</TimelineOppositeContent>
+            <TimelineSeparator> <TimelineDot /> <TimelineConnector /> </TimelineSeparator>
+            <TimelineContent>Hawai'i | Oahu (Honolulu), Big Island (Kona, Hilo, Volcanos)</TimelineContent>
           </TimelineItem>
         </Timeline>
   <br/>
