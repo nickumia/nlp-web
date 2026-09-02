@@ -786,26 +786,41 @@ export default function SpiritualTech() {
     <AccordionDetails>
       <Typography>Look for my car!!</Typography>
       <img src="/static/img/phoenix1.jpg" loading="lazy"
-        style={{maxWidth: '50%', textAlign: 'center', padding: 'inherit', margin: 'auto'}}/>
+        sx={{
+          width: '100%',
+          maxWidth: { xs: '100%', md: '50%' },
+          textAlign: 'center',
+          padding: 'inherit',
+          margin: 'auto'
+        }}/>
       <img src="/static/img/phoenix2.jpg" loading="lazy"
         sx={{
-          maxWidth: '45%',
+          width: '100%',
+          maxWidth: { xs: '100%', md: '45%' },
           textAlign: 'center',
           padding: 'inherit',
           margin: 'auto'
         }}/>
       <img src="/static/img/dragon1.jpg" loading="lazy"
-        style={{maxWidth: '50%', textAlign: 'center', padding: 'inherit', margin: 'auto'}}/>
+        sx={{
+          width: '100%',
+          maxWidth: { xs: '100%', md: '50%' },
+          textAlign: 'center',
+          padding: 'inherit',
+          margin: 'auto'
+        }}/>
       <img src="/static/img/dragon2.jpg" loading="lazy"
         sx={{
-          maxWidth: '45%',
+          width: '100%',
+          maxWidth: { xs: '100%', md: '45%' },
           textAlign: 'center',
           padding: 'inherit',
           margin: 'auto'
         }}/>
       <img src="/static/img/phoenix3.jpg" loading="lazy"
         sx={{
-          maxWidth: '70%',
+          width: '100%',
+          maxWidth: { xs: '100%', md: '70%' },
           textAlign: 'center',
           padding: 'inherit',
           margin: 'auto',
